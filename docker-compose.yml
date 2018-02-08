@@ -1,0 +1,8 @@
+version: '3'
+services:
+  php:
+    image: playniuniu/zentao-php
+    volumes:
+      - '/opt/vol/zentaopms:/opt/web'
+    ports:
+      - '9000:9000'
